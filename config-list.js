@@ -17,7 +17,7 @@ let feedList = [
   {
     title: '老鵝特搜',
     feedID: 'omgoosetw-news',
-    thumbnailBorderColor: true,
+    // thumbnailBorderColor: true,
     homepageURL: 'https://www.youtube.com/channel/UC_iwP8I13JnL54BypRCzldw',
     itemFilters: [
       ItemFiltersPreset.between3minTo30Min,
