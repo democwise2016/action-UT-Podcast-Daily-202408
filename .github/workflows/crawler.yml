@@ -3,8 +3,11 @@ on:
   push:
   schedule:
     - cron:  "5 1 * * *" # 實際執行時間是這個時間加八小時
+    - cron:  "5 5 * * *" # 實際執行時間是這個時間加八小時
     - cron:  "5 9 * * *" # 實際執行時間是這個時間加八小時
+    - cron:  "5 13 * * *" # 實際執行時間是這個時間加八小時
     - cron:  "5 17 * * *" # 實際執行時間是這個時間加八小時
+    - cron:  "5 21 * * *" # 實際執行時間是這個時間加八小時
   workflow_dispatch:
 permissions:
   contents: write
