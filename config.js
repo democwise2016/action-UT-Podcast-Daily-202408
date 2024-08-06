@@ -10,5 +10,5 @@ let CONFIG = {
 }
 
 module.exports = async function () {
-  await ConfigCheck(CONFIG)
+  return await ConfigCheck(CONFIG)
 }
