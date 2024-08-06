@@ -9,4 +9,6 @@ let CONFIG = {
   feedList
 }
 
-module.exports = ConfigCheck(CONFIG)
+module.exports = async function () {
+  await ConfigCheck(CONFIG)
+}
