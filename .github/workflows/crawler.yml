@@ -77,9 +77,9 @@ jobs:
       #     rm -rf ./cache/* || true
       #     rm -rf ./output/* || true
       
-      - name: Clean Cache
-        run: |
-          rm -rf ./cache/* || true
+      # - name: Clean Cache
+      #   run: |
+      #     rm -rf ./cache/* || true
       
 
       # - name: Clean Cache node-cache.sqlite
