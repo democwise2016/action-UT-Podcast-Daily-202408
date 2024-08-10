@@ -145,10 +145,14 @@ jobs:
       #     rm -rf output/*/0*
       #     rm -rf output/*/1*
 
+      # - name: Main
+      #   run: |
+      #     bash ./action/install_docker_compose.sh
+      #     docker-compose up --abort-on-container-exit
+
       - name: Main
         run: |
-          bash ./action/install_docker_compose.sh
-          docker-compose up --abort-on-container-exit
+          docker compose up --abort-on-container-exit
 
       # ----------------------------------------------------------------
 
