@@ -98,16 +98,12 @@ let feedList = [
 // 測試用
 // feedList = [
 //   {
-//     title: '萊斯 新Game報',
-//     feedID: 'LiceMoo-GameNews',
-//     homepageURL: 'https://www.youtube.com/channel/UC9WiXJEyHMGRqL-__3FIBEw',
-//     thumbnailBorderColor: true,
-//     itemFilters: [
-//       ItemFiltersPreset.between3minTo30Min,
-//       // (item) => { return (item.title.indexOf('《新Game報') > -1) }
-//     ],
+//     title: '窮奢極欲',
+//     feedID: 'withmoney',
+//     homepageURL: 'https://www.youtube.com/channel/UCA0o60mhG0v2Eha8wSL3_Jw',
+//     itemFilters: ItemFiltersPreset.between3minTo30Min,
 //     options: {
-//       maxItems: 3
+//       maxItems: 1
 //     }
 //   },
 // ]
