@@ -8,9 +8,8 @@
     "start-test": "rm -f ./cache/*.sqlite; rm -rf ./output/; docker-compose down; docker-compose up",
     "up": "docker-compose up",
     "down": "docker-compose down",
-    "build-up": "docker-compose up --build",
     "bash": "docker-compose run app bash",
-    "build": "docker-compose build"
+    "clean": "rm -f ./cache/*.sqlite; rm -rf ./output/"
   },
   "repository": {
     "type": "git",
