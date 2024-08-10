@@ -4,7 +4,7 @@ version: "3"
 services:
   app:
     # build: .
-    image: pudding/docker-image-base:action-UT-Podcast-Docker-Image-20240810.185321
+    image: pudding/docker-image-base:action-UT-Podcast-Docker-Image-20240810.211810
     tty: true
     # command: "yt-dlp --print upload_date https://www.youtube.com/watch?v=51042w5wZsM"
     volumes: 
