@@ -96,16 +96,16 @@ let feedList = [
 // ---------------------------------------
 
 // 測試用
-feedList = [
-  {
-    title: '窮奢極欲',
-    feedID: 'withmoney',
-    homepageURL: 'https://www.youtube.com/channel/UCA0o60mhG0v2Eha8wSL3_Jw',
-    itemFilters: ItemFiltersPreset.between3minTo30Min,
-    options: {
-      maxItems: 3
-    }
-  },
-]
+// feedList = [
+//   {
+//     title: '窮奢極欲',
+//     feedID: 'withmoney',
+//     homepageURL: 'https://www.youtube.com/channel/UCA0o60mhG0v2Eha8wSL3_Jw',
+//     itemFilters: ItemFiltersPreset.between3minTo30Min,
+//     options: {
+//       maxItems: 3
+//     }
+//   },
+// ]
 
 module.exports = feedList
