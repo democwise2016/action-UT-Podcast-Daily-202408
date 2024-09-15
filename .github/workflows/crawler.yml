@@ -40,20 +40,20 @@ jobs:
 
       # ----------------------------------------------------------------
 
-      # - name: Cache Restore
-      #   id: cache-restore
-      #   uses: actions/cache/restore@v3
-      #   env:
-      #     cache-name: cache
-      #   with:
-      #     path: |
-      #       cache
-      #       output
-      #     key: ${{ runner.os }}-build-${{ env.cache-name }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-build-${{ env.cache-name }}
-      #       ${{ runner.os }}-build-
-      #       ${{ runner.os }}-
+      - name: Cache Restore
+        id: cache-restore
+        uses: actions/cache/restore@v3
+        env:
+          cache-name: cache
+        with:
+          path: |
+            cache
+            output
+          key: ${{ runner.os }}-build-${{ env.cache-name }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
 
       - name: Cache
         id: cache
