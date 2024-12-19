@@ -154,7 +154,8 @@ jobs:
 
       - name: Main
         run: |
-          docker compose up --quiet-pull
+          docker compose up --quiet-pull --abort-on-container-exit
+          exit
           
 
       # ----------------------------------------------------------------
