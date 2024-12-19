@@ -103,7 +103,7 @@ let feedList = [
 //     homepageURL: 'https://www.youtube.com/channel/UCA0o60mhG0v2Eha8wSL3_Jw',
 //     itemFilters: ItemFiltersPreset.between3minTo30Min,
 //     options: {
-//       maxItems: 3
+//       maxItems: 1
 //     }
 //   },
 // ]
