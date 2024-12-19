@@ -118,6 +118,24 @@ jobs:
       
       # ----------------------------------------------------------------
 
+      # - name: Prepare Cache
+      #   run: |
+      #     mkdir -p cache
+      #     echo `date` > cache/trigger.txt
+      #     mkdir -p output
+      #     echo `date` > output/trigger.txt
+
+      - name: Clean download failed cache
+        run: |
+          rm -rf ./cache/node-cache_UBMp3DownloadFailed.sqlite
+
+      # - name: Clean old downloaded
+      #   run: |
+      #     rm -rf output/*/0*
+      #     rm -rf output/*/1*
+
+      # -----------------------------------------------------
+      
       - name: Check Cache Size Before
         run: |
           ls -lh ./cache/*.sqlite || true
@@ -128,22 +146,6 @@ jobs:
           ls -lh ./output/*.rss || true
       
       # ----------------------------------------------------------------
-
-      # - name: Prepare Cache
-      #   run: |
-      #     mkdir -p cache
-      #     echo `date` > cache/trigger.txt
-      #     mkdir -p output
-      #     echo `date` > output/trigger.txt
-
-      - name: Clean download failed cache
-        run: |
-          rm -rf cache/node-cache_UBMp3DownloadFailed.sqlite
-
-      # - name: Clean old downloaded
-      #   run: |
-      #     rm -rf output/*/0*
-      #     rm -rf output/*/1*
 
       # - name: Main
       #   run: |
