@@ -218,7 +218,7 @@ jobs:
 
           # rm -rf *
 
-          rsync -av --delete /tmp/gh-pages/ ./
+          rsync -a --delete /tmp/gh-pages/ ./
 
           git add .
           git commit --amend -m "Keep only the latest commit: ${{ github.sha }}"
