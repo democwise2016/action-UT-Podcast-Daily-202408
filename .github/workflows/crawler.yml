@@ -111,6 +111,10 @@ jobs:
       #     docker network prune -f
       #     docker volume prune -f
 
+      - name: Clean Cache
+        run: |
+          rm -rf ./output/cache
+
       # - name: Remove unsubscribe channels
       #   run: |
       #     rm -rf ./output/meisouniv-news-ch_UCiCOKR_WkqZuYN9fpjWqnzg*
