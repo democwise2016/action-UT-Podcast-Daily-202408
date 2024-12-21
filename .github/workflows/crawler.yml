@@ -207,7 +207,7 @@ jobs:
         run: |
           mkdir -p /tmp/gh-pages
           mv ./output/* /tmp/gh-pages/
-          
+
           git fetch origin gh-pages --depth=1
           git checkout gh-pages
 
@@ -218,7 +218,7 @@ jobs:
 
           # rm -rf *
 
-          rsync -av /tmp/gh-pages/ ./
+          rsync -av --delete /tmp/gh-pages/ ./
 
           git add .
           git commit --amend -m "Keep only the latest commit: ${{ github.sha }}"
