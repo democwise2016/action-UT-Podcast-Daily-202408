@@ -205,13 +205,22 @@ jobs:
 
       - name: Fetch gh-pages branch
         run: |
+          mkdir -p /tmp/gh-pages
+          mv ./output/* /tmp/gh-pages/
+          
           git fetch origin gh-pages --depth=1
           git checkout gh-pages
 
       - name: Remove all history except latest commit
         run: |
-          latest_commit=$(git rev-parse HEAD)
-          git reset --soft $latest_commit
+          last_commit=$(git log -n 1 --pretty=format:%H | head -n 1)
+          git reset --soft $last_commit
+
+          # rm -rf *
+
+          rsync -av /tmp/gh-pages/ ./
+
+          git add .
           git commit --amend -m "Keep only the latest commit: ${{ github.sha }}"
 
           git gc --aggressive --prune=now
