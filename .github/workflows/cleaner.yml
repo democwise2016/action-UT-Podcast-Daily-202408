@@ -1,6 +1,6 @@
-name: Crawler
+name: Cleaner
 on: 
-  push:
+  # push:
   schedule:
     - cron:  "0 0 * * 1" # 實際執行時間是這個時間加八小時
   workflow_dispatch:
