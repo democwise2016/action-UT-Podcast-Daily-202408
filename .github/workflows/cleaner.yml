@@ -25,9 +25,9 @@ jobs:
 
       - name: Fetch gh-pages branch
         run: |
-          mkdir -p /tmp/gh-pages
-          ls -la
-          mv ./output/* /tmp/gh-pages/
+          # mkdir -p /tmp/gh-pages
+          # ls -la
+          # mv ./output/* /tmp/gh-pages/
 
           git fetch origin gh-pages --depth=1
           git checkout gh-pages
@@ -39,7 +39,7 @@ jobs:
 
           # rm -rf *
 
-          rsync -a --delete /tmp/gh-pages/ ./
+          # rsync -a --delete /tmp/gh-pages/ ./
 
           git add .
           git commit --amend -m "Keep only the latest commit: ${{ github.sha }}"
