@@ -26,6 +26,7 @@ jobs:
       - name: Fetch gh-pages branch
         run: |
           mkdir -p /tmp/gh-pages
+          ls -la
           mv ./output/* /tmp/gh-pages/
 
           git fetch origin gh-pages --depth=1
