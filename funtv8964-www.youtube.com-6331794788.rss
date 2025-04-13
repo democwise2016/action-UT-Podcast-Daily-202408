@@ -1,0 +1,33 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:media="http://www.rssboard.org/media-rss" version="2.0">
+  <channel>
+    <title><![CDATA[攝徒日記Fun TV [UT]]]></title>
+    <link>https://www.youtube.com/channel/UCvTe3Z7TZsjGzUERx4Ce6zA</link>
+    <image>
+      <url>https://yt3.googleusercontent.com/V1X9fAM1e6AQUD0xptc2ISShPmtqhjk9WLXLyn3_OXreinfpYVgq8q2evw9NiipScj5xuTTJ=s120-c-k-c0x00ffffff-no-rj</url>
+      <title>攝徒日記Fun TV [UT]</title>
+      <link>https://www.youtube.com/channel/UCvTe3Z7TZsjGzUERx4Ce6zA</link>
+    </image>
+    <language>en-us</language>
+    <atom:link href="https://www.youtube.com/feeds/videos.xml?channel_id=UCvTe3Z7TZsjGzUERx4Ce6zA" rel="self" type="application/rss+xml"/>
+    <copyright><![CDATA[攝徒日記Fun TV [UT]]]></copyright>
+    <itunes:author><![CDATA[攝徒日記Fun TV [UT]]]></itunes:author>
+    <itunes:summary>
+      <![CDATA[
+      <a href="https://www.youtube.com/channel/UCvTe3Z7TZsjGzUERx4Ce6zA" target="_blank">https://www.youtube.com/channel/UCvTe3Z7TZsjGzUERx4Ce6zA</a>LINK<br />
+<br />
+<a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCvTe3Z7TZsjGzUERx4Ce6zA" target="_blank">https://www.youtube.com/feeds/videos.xml?channel_id=UCvTe3Z7TZsjGzUERx4Ce6zA</a>
+      ]]>
+    </itunes:summary>
+    <description>
+      <![CDATA[
+      <a href="https://www.youtube.com/channel/UCvTe3Z7TZsjGzUERx4Ce6zA" target="_blank">https://www.youtube.com/channel/UCvTe3Z7TZsjGzUERx4Ce6zA</a>LINK<br />
+<br />
+<a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCvTe3Z7TZsjGzUERx4Ce6zA" target="_blank">https://www.youtube.com/feeds/videos.xml?channel_id=UCvTe3Z7TZsjGzUERx4Ce6zA</a>
+      ]]>
+    </description>
+    <itunes:owner>
+      <itunes:name><![CDATA[攝徒日記Fun TV [UT]]]></itunes:name>
+    </itunes:owner>
+    <itunes:image href="https://yt3.googleusercontent.com/V1X9fAM1e6AQUD0xptc2ISShPmtqhjk9WLXLyn3_OXreinfpYVgq8q2evw9NiipScj5xuTTJ=s120-c-k-c0x00ffffff-no-rj"/>
+</channel>
+</rss>
