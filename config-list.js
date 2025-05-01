@@ -76,15 +76,15 @@ let feedList = [
     homepageURL: 'https://www.youtube.com/channel/UCA0o60mhG0v2Eha8wSL3_Jw',
     itemFilters: ItemFiltersPreset.between3minTo30Min,
   },
-  {
-    title: '關我什麼事 財經政論',
-    feedID: 'GUNaSHOW',
-    homepageURL: 'https://www.youtube.com/channel/UCMpuxj_U02VaHfaPD5Jjx_Q',
-    itemFilters: ItemFiltersPreset.between30minTo180Min,
-    options: {
-      maxItems: 1
-    }
-  },
+  // {
+  //   title: '關我什麼事 財經政論',
+  //   feedID: 'GUNaSHOW',
+  //   homepageURL: 'https://www.youtube.com/channel/UCMpuxj_U02VaHfaPD5Jjx_Q',
+  //   itemFilters: ItemFiltersPreset.between30minTo180Min,
+  //   options: {
+  //     maxItems: 1
+  //   }
+  // },
   {
     title: '公子沈 評中國',
     feedID: 'gongzishen',
