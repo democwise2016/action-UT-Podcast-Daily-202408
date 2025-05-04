@@ -1,0 +1,33 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:media="http://www.rssboard.org/media-rss" version="2.0">
+  <channel>
+    <title><![CDATA[公子沈 評中國 [UT]]]></title>
+    <link>https://www.youtube.com/channel/UCrGSFNEBmCN0rqhATZels2Q</link>
+    <image>
+      <url>https://yt3.googleusercontent.com/s2O8C7x6D3mUu3kMe9L5Z_3b5CZh_mH0s8sb_9zL76hs8mhpBkhQSEFNvzxqomjQUwXARer0i2A=s120-c-k-c0x00ffffff-no-rj</url>
+      <title>公子沈 評中國 [UT]</title>
+      <link>https://www.youtube.com/channel/UCrGSFNEBmCN0rqhATZels2Q</link>
+    </image>
+    <language>en-us</language>
+    <atom:link href="https://www.youtube.com/feeds/videos.xml?channel_id=UCrGSFNEBmCN0rqhATZels2Q" rel="self" type="application/rss+xml"/>
+    <copyright><![CDATA[公子沈 評中國 [UT]]]></copyright>
+    <itunes:author><![CDATA[公子沈 評中國 [UT]]]></itunes:author>
+    <itunes:summary>
+      <![CDATA[
+      <a href="https://www.youtube.com/channel/UCrGSFNEBmCN0rqhATZels2Q" target="_blank">https://www.youtube.com/channel/UCrGSFNEBmCN0rqhATZels2Q</a>LINK<br />
+<br />
+<a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCrGSFNEBmCN0rqhATZels2Q" target="_blank">https://www.youtube.com/feeds/videos.xml?channel_id=UCrGSFNEBmCN0rqhATZels2Q</a>
+      ]]>
+    </itunes:summary>
+    <description>
+      <![CDATA[
+      <a href="https://www.youtube.com/channel/UCrGSFNEBmCN0rqhATZels2Q" target="_blank">https://www.youtube.com/channel/UCrGSFNEBmCN0rqhATZels2Q</a>LINK<br />
+<br />
+<a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCrGSFNEBmCN0rqhATZels2Q" target="_blank">https://www.youtube.com/feeds/videos.xml?channel_id=UCrGSFNEBmCN0rqhATZels2Q</a>
+      ]]>
+    </description>
+    <itunes:owner>
+      <itunes:name><![CDATA[公子沈 評中國 [UT]]]></itunes:name>
+    </itunes:owner>
+    <itunes:image href="https://yt3.googleusercontent.com/s2O8C7x6D3mUu3kMe9L5Z_3b5CZh_mH0s8sb_9zL76hs8mhpBkhQSEFNvzxqomjQUwXARer0i2A=s120-c-k-c0x00ffffff-no-rj"/>
+</channel>
+</rss>
