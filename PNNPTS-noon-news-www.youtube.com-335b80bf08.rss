@@ -30,12 +30,12 @@
     </itunes:owner>
     <itunes:image href="https://yt3.ggpht.com/ytc/AIdro_ms3o2HJnVOnEZSceyQygn7y_lsRZn1S91CJIUthdizIg=s1024-b50-c-k-c0x00E85D75-no-rj"/>
 <item>
-      <title><![CDATA[5.18]20250518 公視中晝新聞 完整版｜2潛水客遭漁船螺旋槳打傷 墾管處：該處為公告潛點]]></title>
-      <itunes:title><![CDATA[5.18]20250518 公視中晝新聞 完整版｜2潛水客遭漁船螺旋槳打傷 墾管處：該處為公告潛點]]></itunes:title>
+      <title><![CDATA[5.23]20250523 公視中晝新聞 完整版｜台中南區建案拆鷹架坍塌 工人高空墜落2死2傷]]></title>
+      <itunes:title><![CDATA[5.23]20250523 公視中晝新聞 完整版｜台中南區建案拆鷹架坍塌 工人高空墜落2死2傷]]></itunes:title>
       <itunes:author><![CDATA[公視新聞網]]></itunes:author>
       <itunes:summary>
-        <![CDATA[https://www.youtube.com/watch?v=ikKs1xcENJY
-詳細新聞內容請見【公視新聞網】 https://news.pts.org.tw
+        <![CDATA[https://www.youtube.com/watch?v=4rRGflRJ4UM
+詳細新聞內容請見【公視新聞網】 https://news.pts.org.tw/
 
 -
 由台灣公共電視新聞部製播，提供每日正確、即時的新聞內容及多元觀點。
@@ -48,8 +48,8 @@
 #公視新聞 #即時新聞]]>
       </itunes:summary>
       <description>
-        <![CDATA[https://www.youtube.com/watch?v=ikKs1xcENJY
-詳細新聞內容請見【公視新聞網】 https://news.pts.org.tw
+        <![CDATA[https://www.youtube.com/watch?v=4rRGflRJ4UM
+詳細新聞內容請見【公視新聞網】 https://news.pts.org.tw/
 
 -
 由台灣公共電視新聞部製播，提供每日正確、即時的新聞內容及多元觀點。
@@ -61,8 +61,8 @@
 
 #公視新聞 #即時新聞]]>
       </description>
-      <content:encoded><![CDATA[<pre>https://www.youtube.com/watch?v=ikKs1xcENJY
-詳細新聞內容請見【公視新聞網】 https://news.pts.org.tw
+      <content:encoded><![CDATA[<pre>https://www.youtube.com/watch?v=4rRGflRJ4UM
+詳細新聞內容請見【公視新聞網】 https://news.pts.org.tw/
 
 -
 由台灣公共電視新聞部製播，提供每日正確、即時的新聞內容及多元觀點。
@@ -73,10 +73,10 @@
 ■ 點擊【公視新聞網】https://news.pts.org.tw
 
 #公視新聞 #即時新聞</pre>]]></content:encoded>
-      <itunes:image href="https://i.ytimg.com/vi/ikKs1xcENJY/hqdefault.jpg"/>
-      <enclosure url="https://democwise2016.github.io/action-UT-Podcast-Daily-202408/PNNPTS-noon-news-www.youtube.com-335b80bf08/20250518-ikKs1xcENJY.mp3" type="audio/mpeg" length="1486" />
-      <itunes:duration>1486</itunes:duration>
-      <guid isPermaLink="false">https://democwise2016.github.io/action-UT-Podcast-Daily-202408/PNNPTS-noon-news-www.youtube.com-335b80bf08/20250518-ikKs1xcENJY.mp3</guid>
-      <pubDate>2025-05-18T04:54:08.000Z</pubDate>
+      <itunes:image href="https://i.ytimg.com/vi/4rRGflRJ4UM/hqdefault.jpg"/>
+      <enclosure url="https://democwise2016.github.io/action-UT-Podcast-Daily-202408/PNNPTS-noon-news-www.youtube.com-335b80bf08/20250523-4rRGflRJ4UM.mp3" type="audio/mpeg" length="2990" />
+      <itunes:duration>2990</itunes:duration>
+      <guid isPermaLink="false">https://democwise2016.github.io/action-UT-Podcast-Daily-202408/PNNPTS-noon-news-www.youtube.com-335b80bf08/20250523-4rRGflRJ4UM.mp3</guid>
+      <pubDate>2025-05-23T05:43:14.000Z</pubDate>
     </item></channel>
 </rss>
