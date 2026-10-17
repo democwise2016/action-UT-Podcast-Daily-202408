@@ -14,19 +14,19 @@ let feedList = [
     // }
   },
 
-  {
-    title: '老鵝特搜',
-    feedID: 'omgoosetw-news',
-    // thumbnailBorderColor: true,
-    homepageURL: 'https://www.youtube.com/channel/UC_iwP8I13JnL54BypRCzldw',
-    itemFilters: [
-      ItemFiltersPreset.between3minTo30Min,
-      (item) => { return (item.title.indexOf('｜老鵝特搜') > -1) }
-    ],
-    options: {
-      maxItems: 3
-    }
-  },
+  // {
+  //   title: '老鵝特搜',
+  //   feedID: 'omgoosetw-news',
+  //   // thumbnailBorderColor: true,
+  //   homepageURL: 'https://www.youtube.com/channel/UC_iwP8I13JnL54BypRCzldw',
+  //   itemFilters: [
+  //     ItemFiltersPreset.between3minTo30Min,
+  //     (item) => { return (item.title.indexOf('｜老鵝特搜') > -1) }
+  //   ],
+  //   options: {
+  //     maxItems: 3
+  //   }
+  // },
   {
     title: '攝徒日記Fun TV',
     feedID: 'funtv8964',
@@ -73,12 +73,12 @@ let feedList = [
       (item) => { return ((item.title.indexOf('【每週新聞】') === -1)) }
     ]
   },
-  {
-    title: '窮奢極欲',
-    feedID: 'withmoney',
-    homepageURL: 'https://www.youtube.com/channel/UCA0o60mhG0v2Eha8wSL3_Jw',
-    itemFilters: ItemFiltersPreset.between3minTo30Min,
-  },
+  // {
+  //   title: '窮奢極欲',
+  //   feedID: 'withmoney',
+  //   homepageURL: 'https://www.youtube.com/channel/UCA0o60mhG0v2Eha8wSL3_Jw',
+  //   itemFilters: ItemFiltersPreset.between3minTo30Min,
+  // },
   // {
   //   title: '關我什麼事 財經政論',
   //   feedID: 'GUNaSHOW',
