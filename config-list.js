@@ -53,6 +53,16 @@ let feedList = [
     }
   },
   {
+    title: '永不消逝的坤廠電台',
+    feedID: 'KUNchangzhang',
+    homepageURL: 'https://www.youtube.com/channel/UC2KfpfsxexwR20enxDJJXdg',
+    // itemFilters: ItemFiltersPreset.between3minTo30Min,
+    //maxItems: 2, // default 10
+    options: {
+      maxItems: 3
+    }
+  },
+  {
     title: '志祺七七 X 圖文不符',
     feedID: 'shasha77',
     homepageURL: 'https://www.youtube.com/channel/UCiWXd0nmBjlKROwzMyPV-Nw',
@@ -71,7 +81,10 @@ let feedList = [
     itemFilters: [
       ItemFiltersPreset.between3minTo30Min,
       (item) => { return ((item.title.indexOf('【每週新聞】') === -1)) }
-    ]
+    ],
+    options: {
+      maxItems: 3
+    }
   },
   // {
   //   title: '窮奢極欲',
@@ -93,6 +106,9 @@ let feedList = [
     feedID: 'gongzishen',
     homepageURL: 'https://www.youtube.com/channel/UCrGSFNEBmCN0rqhATZels2Q',
     itemFilters: ItemFiltersPreset.between3minTo30Min,
+    options: {
+      maxItems: 3
+    }
   },
 ]
 
